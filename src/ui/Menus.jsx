@@ -2,7 +2,7 @@ import { createContext, useContext, useState } from "react";
 import { createPortal } from "react-dom";
 import { HiEllipsisVertical } from "react-icons/hi2";
 import styled from "styled-components";
-import { useOutsideClick } from "d:/FRONT/courseReact/ultimate-react-course-main/ultimate-react-course-main/17-the-wild-oasis/final-6-final/src/hooks/useOutsideClick";
+import { useOutsideClick } from "../hooks/useOutsideClick.js";
 
 const Menu = styled.div`
   display: flex;
